@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,900|Open+Sans:300,400" rel="stylesheet">
     <link rel="stylesheet" href="assets/stylesheets/custom.css">
     <title>King Hei Chick</title>
@@ -17,7 +18,7 @@
     <nav class="navbar navbar-light fixed-top">
 
         <!-- Navbar brand -->
-        <a class="navbar-brand" href="#"><span>K</span>HC</a>
+        <a class="navbar-brand" href="#"><span id="K">KHC</span><span>H</span><span>C</span></a>
 
         <!-- Collapse button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20" aria-controls="navbarSupportedContent20"
@@ -56,7 +57,7 @@
                     <source src="https://media.istockphoto.com/videos/mobile-app-developer-sketching-design-of-a-new-app-in-his-notebook-video-id842899640" type="video/mp4">
             </video>
             <div class="overlay-desc">
-                <h1 >Meet <span class="underline">King</span>, a professional<br><span class="underline">client services specialist</span> and <span class="underline">digital project manager.</span><br><br>Now equipped with the latest web development tech stacks to provide <br><span class="underline">one-stop IT solution</span> for your online business.</h1>
+                <h1 >Meet <span class="underline">King</span>, <br>a professional<span class="underline">client services specialist</span><br><span class="color big" style="text-align: center">/</span><br><span class="underline">digital project manager.</span><br><br><br><br><span class="cover-caption">Now equipped with the latest web development tech stacks to provide <br><span class="underline">one-stop IT solution</span> for your online business.</span></h1>
                 <a href="#about">
                     <img src="assets/images/down-arrow-white.svg" alt="Down arrow icon" id="down-arrow">
                 </a>
@@ -88,26 +89,24 @@
 
                     <!-- FACTS AND FIGURES -->
                 <div class="row">
-                    <div class="col-sm-4 text-center">
+                    <div class="col-sm-4 icon-flow hideme">
                         <img src="assets/images/clients.svg" alt="Icon representing clients" class="img-fluid icons">
                         <p class="figures"><span class="color big">10 yrs</span><br>experience in client servicing</p>
                     </div>
-                    <div class="col-sm-4 text-center">
+                    <div class="col-sm-4 icon-flow hideme">
                         <img src="assets/images/websites.svg" alt="Icon representing projects" class="img-fluid icons">
                         <p class="figures"><span class="color big">100+</span><br> digital projects managed</p>
                     </div>
-                    <div class="col-sm-4 text-center">
+                    <div class="col-sm-4 icon-flow hideme">
                         <img src="assets/images/coding.svg" alt="Icon representing coding" class="img-fluid icons">
                         <p class="figures"><span class="color big">1000+</span><br> hours of immersive coding experience</p>
                     </div>
-                </div>
+                </div>  
             </div>
-            <div class="row link-row">
-                <div id="tech-link-div">
-                    <p class="link-desc">More on my qualifications and<br> career background</p>
-                    <button class="btn " type="submit" id="tech-link"><img src="assets/images/right-arrow-white.svg" alt="Right arrow"></button>
-                </div>
-            </div>
+            <div id="tech-link-div">
+                <p class="link-desc">More on my qualifications and<br> career background</p>
+                <button class="btn " type="submit" id="tech-link"><img src="assets/images/right-arrow.svg" alt="Right arrow"></button>
+            </div>      
         </section>
         
 
@@ -121,32 +120,30 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-6 col-md-4 col-lg-2 text-center logo-container">
-                        <img src="assets/images/fedex.png" alt="FedEx logo" class="img-fluid logo">
+                    <div class="col-6 col-md-4 col-lg-2 text-center client-container">
+                        <img src="assets/images/fedex.png" alt="FedEx logo" class="img-fluid client">
                     </div>
-                    <div class="col-6 col-md-4 col-lg-2 text-center logo-container">
-                        <img src="assets/images/hkust.png" alt="HKUST logo" class="img-fluid logo">
+                    <div class="col-6 col-md-4 col-lg-2 text-center client-container">
+                        <img src="assets/images/hkust.png" alt="HKUST logo" class="img-fluid client">
                     </div>
-                    <div class="col-6 col-md-4 col-lg-2 text-center logo-container">
-                        <img src="assets/images/hmv.png" alt="HMVOD logo" class="img-fluid logo">
+                    <div class="col-6 col-md-4 col-lg-2 text-center client-container">
+                        <img src="assets/images/hmv.png" alt="HMVOD logo" class="img-fluid client">
                     </div>
-                    <div class="col-6 col-md-4 col-lg-2 text-center logo-container">
-                            <img src="assets/images/oup.png" alt="OUP logo" class="img-fluid logo">
+                    <div class="col-6 col-md-4 col-lg-2 text-center client-container">
+                            <img src="assets/images/oup.png" alt="OUP logo" class="img-fluid client">
                     </div>
-                    <div class="col-6 col-md-4 col-lg-2 text-center logo-container">
-                        <img src="assets/images/pjw.png" alt="Prince Jewellery Watch logo" class="img-fluid logo">
+                    <div class="col-6 col-md-4 col-lg-2 text-center client-container">
+                        <img src="assets/images/pjw.png" alt="Prince Jewellery Watch logo" class="img-fluid client">
                     </div>
-                    <div class="col-6 col-md-4 col-lg-2 text-center logo-container">
-                        <img src="assets/images/cp.png" alt="Commercial Press logo" class="img-fluid logo">
+                    <div class="col-6 col-md-4 col-lg-2 text-center client-container">
+                        <img src="assets/images/cp.png" alt="Commercial Press logo" class="img-fluid client">
                     </div>
                 </div>
             </div>
-            <div class="row link-row">
-                <div id="tech-link-div">
-                    <p class="link-desc">See what we have done together</p>
-                    <button class="btn " type="submit" id="tech-link"><img src="assets/images/right-arrow-white.svg" alt="Right arrow"></button>
-                </div>
-            </div>
+            <div id="tech-link-div">
+                <p class="link-desc-white">See what we have made together</p>
+                <button class="btn " type="submit" id="tech-link"><img src="assets/images/right-arrow-white.svg" alt="Right arrow"></button>
+            </div>      
         </section>
 
         <!-- TECH STACKS -->
@@ -188,12 +185,10 @@
                     </div>
                 </div>
             </div>    
-             <div class="row link-row">
-                <div id="tech-link-div">
-                    <p class="link-desc">Check out my personal projects</p>
-                    <button class="btn " type="submit" id="tech-link"><img src="assets/images/right-arrow-white.svg" alt="Right arrow"></button>
-                </div>
-            </div>
+            <div id="tech-link-div">
+                <p class="link-desc">Check out my personal projects</p>
+                <button class="btn " type="submit" id="tech-link"><img src="assets/images/right-arrow.svg" alt="Right arrow"></button>
+            </div>    
         </section>
 
         <!-- CONTACT -->
@@ -205,7 +200,7 @@
                         
                         <div class="text-center">
                             <h2 class="heading-1">CONTACT</h2>
-                            <p>It doesn't matter if you are a professional critic or a friend sharing the same interests. I'm also up for any business opportunity in freelance photo shooting or web development.</p>
+                            <p>Should you want to find out more about me or explore potential business opportunity, please leave a message and I will get back to you asap.</p>
                         </div>
                         
                         <div class="row">
@@ -251,18 +246,17 @@
         <!-- FOOTER -->
         
         <footer>
-            <section class="primary">
+            <section class="primary bg-dark">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="text-center">
                             <h2 class="heading-2">CONNECT</h2>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row justify-content-center">
                         <div class="center-block">
                             <a href=""><i class="fab fa-github-square"></i></a>
                             <a href=""><i class="fab fa-linkedin"></i></a>
-                            <a href=""><i class="fab fa-flickr"></i></a>
                             <a href=""><i class="fab fa-facebook-square"></i></a>
                             <a href=""><i class="fab fa-google-plus-square"></i></a>
                             <p class="copyright">KHC &copy; 2018. All Rights Reserved.</p>
@@ -302,6 +296,9 @@
             behavior: 'smooth'
                 });
             });
+        });
+        $(function(){  // $(document).ready shorthand
+        $('.monster').fadeIn('slow');
         });
   </script>
 </body>

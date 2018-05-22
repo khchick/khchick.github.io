@@ -29,7 +29,7 @@ button:focus {
   .animated-icon1 span {
     display: block;
     position: absolute;
-    height: 3px;
+    height: 2px;
     width: 100%;
     border-radius: 9px;
     opacity: 1;
@@ -94,12 +94,16 @@ height: 70px;
 line-height: 60px;
 width: 50%;
 font-size: 1.8rem;
-background-color: #f4f7f6;
 color: white !important;
+display: flex;
+align-items: center;
 }
 
-.navbar-brand span {
-    color: #db1e8c;
+#K {
+    background-color: #143a81;
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
 }
 
 .navbar-toggle {
@@ -108,11 +112,12 @@ padding: 9px 10px !important;
 }
 
 .navbar-toggler {
-    padding: 23px 23px 25px 0;
+    padding: 23px 0px 25px 0;
+    margin-right: 40px;
 }
 
 a.nav-link {
-    margin-right: 23px;
+    margin-right: 40px;
 }
 
 .navbar-nav {
@@ -122,40 +127,60 @@ a.nav-link {
 .nav-item {
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
-    letter-spacing: 0.3ch;
-    font-size: 3rem;
-    line-height: 5rem;
+    letter-spacing: 0.1ch;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 10px;
 }
 
   /* GRID */
 section.primary {
-    padding: 100px 0 0 0;
+    padding: 70px 0 0 0;
+}
 
+#about {
+    background-color: #f8f9fa !important;
+    padding: 100px 0 0 0;
 }
 
 .icons {
-    height: 190px;
-    padding: 30px 20px;
+    height: 120px;
+    padding: 30px 10px;
+}
+
+.icon-flow {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    margin: 10px 30px;
+    border-radius: 10px;
 }
 
 .logo {
-    width: 150px;
+    width: 100px;
     padding: 40px 10px;
     margin: 10px 10px;
 }
 
 .figures {
-    margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 .logo-container {
     vertical-align: middle;
+    margin: 6px -6px;
+}
+
+.client {
+    width: 90px;
+    margin: 40px auto;
 }
 
 .tech-logo {
-    width: 120px;
-    padding: 10px;
-    margin: 15px;
+    width: 80px;
+    padding: 8px;
+    margin: 10px;
     border-width: 0.5px;
     border-color: #dededf;
     border-style: solid;
@@ -163,7 +188,6 @@ section.primary {
 
 .link-row {
     width: 100%;
-    margin: 100px 0 0 0;
     padding: 20px 10px;
     background-color: black;
     display: flex;
@@ -171,10 +195,10 @@ section.primary {
 }
 
 #tech-link-div {
-    color: white;
     vertical-align: middle;
     display: flex;
     justify-content: flex-end;
+    padding: 50px 0 20px 0;
 }
 
 #tech-link-div p {
@@ -184,9 +208,9 @@ section.primary {
 
 #tech-link {
     margin-right: 25px;
-    width: 80px;
+    width: 3.5em;
     background-color: transparent;
-    padding: 0;
+    padding: 0 10px 0 0;
 }
 
 #tech-link:hover {
@@ -217,7 +241,7 @@ p,
 label {
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.7rem;
 }
 
@@ -228,9 +252,14 @@ label {
 .link-desc,
 .link-desc-white {
     margin: 0;
-    padding-right: 10px;
+    padding: 0 10px;
     font-style: italic;
     font-weight: lighter;
+    font-size: 1.2em;
+    line-height: 1.4;
+    border-style: solid;
+    border-width: 0 0 0 10px;
+    border-color: #093381;
 }
 
 .link-desc-white {
@@ -240,18 +269,24 @@ label {
 /* TYPOGRAPHY */
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 0.7em;
 }
 
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Merriweather', serif;
 }
 
+h1 {
+    line-height: 1.1;
+}
+
 .heading-1,
 .heading-2 {
     margin-bottom: 30px;
-    padding: 0 2px;
+    padding: 0 10px;
     color: white;
     display: inline-block;
+    font-size: 2.5em;
 }
 
 .heading-1 {
@@ -267,7 +302,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .big {
-    font-size: 2em;
+    font-size: 1.6em;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -339,7 +374,7 @@ video {
     
 
 .overlay-desc h1 {
-    font-size: 6vw;
+    font-size: 6.5vw;
     text-align: left;
     color: white;
     padding: 10px;
@@ -347,9 +382,16 @@ video {
     background-image: url("https://www.transparenttextures.com/patterns/diagonal-noise.png");
 }
 
+.cover-caption {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4vw;
+    font-weight: lighter;
+}
+
 #down-arrow {
     width: 100px;
-    margin: 80px auto 20px auto;
+    margin: 20px auto;
     bottom: 200px;
     padding: 10px;
 }
@@ -392,8 +434,9 @@ video {
 .form-control {
     border-width: 0 0 10px 0;
     border-radius: 0;
-    border-color: #fd039580;
+    border-color: #093381a2;
     color: #a1a1a1;
+    font-size: 1.1em;
 }
 
 ::placeholder {
@@ -421,13 +464,13 @@ textarea {
     display: block;
     width: 100%;
     padding: .375rem .75rem;
-    font-size: 1rem;
+    font-size: 1.1em;
     line-height: 1.5;
     color: #495057;
     background-color: #fff;
     background-clip: padding-box;
     border-width: 0 0 10px 0;
-    border-color: #fd039580;
+    border-color: #093381a2;
 }
 
 #submit-div {
@@ -444,7 +487,7 @@ textarea {
 }
 
 #submitButton {
-    width: 80px;
+    width: 3.5em;
     background-color: transparent;
     padding: 0;
 }
