@@ -93,7 +93,7 @@ padding: 0 15px;
 height: 70px;
 line-height: 60px;
 width: 50%;
-font-size: 1.8rem;
+font-size: 1.7rem;
 color: white !important;
 display: flex;
 align-items: center;
@@ -102,8 +102,9 @@ align-items: center;
 #K {
     background-color: #143a81;
     border-radius: 50%;
-    width: 1.5em;
-    height: 1.5em;
+    width: 1.7em;
+    height: 1.7em;
+    letter-spacing: 0.1ch;
 }
 
 .navbar-toggle {
@@ -113,11 +114,11 @@ padding: 9px 10px !important;
 
 .navbar-toggler {
     padding: 23px 0px 25px 0;
-    margin-right: 40px;
+    margin-right: 25px;
 }
 
 a.nav-link {
-    margin-right: 40px;
+    margin-right: 25px;
 }
 
 .navbar-nav {
@@ -144,8 +145,8 @@ section.primary {
 }
 
 .icons {
-    height: 120px;
-    padding: 30px 10px;
+    width: 95px;
+    padding: 30px 15px;
 }
 
 .icon-flow {
@@ -197,7 +198,7 @@ section.primary {
 #tech-link-div {
     vertical-align: middle;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 50px 0 20px 0;
 }
 
@@ -207,7 +208,6 @@ section.primary {
 }
 
 #tech-link {
-    margin-right: 25px;
     width: 3.5em;
     background-color: transparent;
     padding: 0 10px 0 0;
@@ -257,9 +257,9 @@ label {
     font-weight: lighter;
     font-size: 1.2em;
     line-height: 1.4;
-    border-style: solid;
-    border-width: 0 0 0 10px;
-    border-color: #093381;
+    /* border-style: solid;
+    border-width: 0 0 0 5px;
+    border-color: #1646a0; */
 }
 
 .link-desc-white {
@@ -277,7 +277,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-    line-height: 1.1;
+    line-height: 1.2;
 }
 
 .heading-1,
@@ -390,9 +390,8 @@ video {
 }
 
 #down-arrow {
-    width: 100px;
+    width: 70px;
     margin: 20px auto;
-    bottom: 200px;
     padding: 10px;
 }
 
@@ -476,7 +475,7 @@ textarea {
 #submit-div {
     vertical-align: middle;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     margin-top: 30px;
 }
 
@@ -526,6 +525,31 @@ footer .center-block {
     margin: 0;
 }
 
+.contact-info {
+    color: white;
+}
+
+.contact-info p {
+    padding: 0 10px;
+}
+
+.contact-info a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-info a:hover {
+    color: #db1e8c;
+    font-weight: bold;
+}
+
+
+
+.contact-col {
+    padding: 0 !important;
+    text-align: left;
+}
+
 .copyright {
     text-align: center;
     color: lightgrey;
@@ -556,6 +580,13 @@ footer .center-block {
     transform: scale(1.2);
     transition: transform 0.5s;
     color: #ef391a;
+}
+
+.fa-mobile-alt,
+.fa-at {
+    color: white;
+    font-size: 2em;
+    padding-right: 0;
 }
 
 
