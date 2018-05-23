@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,900|Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="assets/stylesheets/animate.css">
     <link rel="stylesheet" href="assets/stylesheets/custom.css">
     <title>King Hei Chick</title>
 </head>
@@ -15,7 +16,7 @@
     <!-- NAVIGATION -->
 
     <!--Navbar-->
-    <nav class="navbar navbar-light fixed-top">
+    <nav class="navbar navbar-light navbar-expand-md fixed-top ">
 
         <!-- Navbar brand -->
         <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="Logo" id="khc"></span></a>
@@ -56,10 +57,23 @@
             <video autoplay loop muted>
                     <source src="https://media.istockphoto.com/videos/mobile-app-developer-sketching-design-of-a-new-app-in-his-notebook-video-id842899640" type="video/mp4">
             </video>
-            <div class="overlay-desc">
-                <h1 >Meet <span class="underline">King</span>, <br>a professional<span class="underline">client services specialist</span><br><span class="color big" style="text-align: center">/</span><br><span class="underline">digital project manager.</span><br><br><br><br><span class="cover-caption">Now equipped with the latest web development tech stacks to provide <br><span class="underline">one-stop IT solution</span> for your online business.</span></h1>
+            <div class="overlay-desc fadeIn">
+                <h1 >Meet <span class="underline">King,</span> <br>a professional <span class="underline">client services specialist</span><br><span class="color big" style="text-align: center">/</span><br><span class="underline">digital project manager.</span><br><br><br><br><span class="cover-caption">Now equipped with the latest web development tech stacks to provide <br><span class="underline">one-stop IT solution</span> for your online business.</span></h1>
                 <a href="#about">
-                    <img src="assets/images/down-arrow-white.svg" alt="Down arrow icon" id="down-arrow">
+                        <svg version="1.1" id="down-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 82 82" style="enable-background:new 0 0 82 82;" xml:space="preserve">
+                   <style type="text/css">
+                       .st2{fill:#FFFFFF;}
+                   </style>
+                   <g>
+                       <g>
+                           <path class="st2" d="M41,54.5l-22-22c-0.4-0.4-1-0.4-1.4,0c-0.4,0.4-0.4,1,0,1.4l22.6,22.6c0.2,0.2,0.5,0.3,0.8,0.3
+                               c0.3,0,0.6-0.1,0.8-0.3l22.6-22.6c0.4-0.4,0.4-1,0-1.4c-0.4-0.4-1-0.4-1.4,0L41,54.5z"/>
+                           <path class="st2" d="M82,41C82,18.4,63.6,0,41,0S0,18.4,0,41s18.4,41,41,41S82,63.6,82,41L82,41z M80,41c0,21.5-17.5,39-39,39
+                               S2,62.5,2,41S19.5,2,41,2S80,19.5,80,41L80,41z"/>
+                       </g>
+                   </g>
+                   </svg>
                 </a>
                 <!-- <p id="find-out"><span class="underline">Find out more</span></p> -->
             </div>
@@ -76,7 +90,7 @@
             <div class="container">
                 <div class="row">
                     <div class="container text-center">
-                        <h2 class="heading-1">WHO AM I?</h2>
+                        <h2 class="heading-1" data-aos="fade-right">WHO AM I?</h2>
                         <p class="justify-content-center">
                             <span class="underline">Account Manager</span>
                             <span class="color big">&nbsp&nbsp&nbsp/&nbsp&nbsp&nbsp</span>
@@ -88,24 +102,39 @@
                 </div>
 
                     <!-- FACTS AND FIGURES -->
-                <div class="row">
-                    <div class="col-sm-4 icon-flow hideme">
-                        <img src="assets/images/clients.svg" alt="Icon representing clients" class="img-fluid icons">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-lg-3 icon-flow">
+                        <img src="assets/images/clients.svg" alt="Icon representing clients" class="img-fluid icons flipInY animated">
                         <p class="figures"><span class="color big">10 yrs</span><br>experience in client servicing</p>
                     </div>
-                    <div class="col-sm-4 icon-flow hideme">
-                        <img src="assets/images/websites.svg" alt="Icon representing projects" class="img-fluid icons">
+                    <div class="col-md-8 col-lg-3 icon-flow">
+                        <img src="assets/images/websites.svg" alt="Icon representing projects" class="img-fluid icons flipInY animated">
                         <p class="figures"><span class="color big">100+</span><br> digital projects managed</p>
                     </div>
-                    <div class="col-sm-4 icon-flow hideme">
-                        <img src="assets/images/coding.svg" alt="Icon representing coding" class="img-fluid icons">
+                    <div class="col-md-8 col-lg-3 icon-flow">
+                        <img src="assets/images/coding.svg" alt="Icon representing coding" class="img-fluid icons flipInY animated">
                         <p class="figures"><span class="color big">1000+</span><br> hours of immersive coding experience</p>
                     </div>
                 </div>  
             </div>
             <div id="tech-link-div">
-                <p class="link-desc">More on my qualifications and<br> career background</p>
-                <button class="btn " type="submit" id="tech-link"><img src="assets/images/right-arrow.svg" alt="Right arrow"></button>
+                <p class="link-desc animation-element slide-left">More on my qualifications and<br> career background</p>
+                <button class="btn animation-element slide-left" type="submit" id="tech-link">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 82 82" style="enable-background:new 0 0 82 82;" xml:space="preserve">
+                   <style type="text/css">
+                       .st0{fill:#FFFFFF;}
+                   </style>
+                   <g>
+                       <g>
+                           <path class="st0" d="M54.5,41l-22,22c-0.4,0.4-0.4,1,0,1.4s1,0.4,1.4,0l22.6-22.6c0.2-0.2,0.3-0.5,0.3-0.8s-0.1-0.6-0.3-0.8
+                               L33.8,17.5c-0.4-0.4-1-0.4-1.4,0c-0.4,0.4-0.4,1,0,1.4L54.5,41z"/>
+                           <path class="st0" d="M41,0C18.4,0,0,18.4,0,41s18.4,41,41,41s41-18.4,41-41S63.6,0,41,0L41,0z M41,2c21.5,0,39,17.5,39,39
+                               S62.5,80,41,80S2,62.5,2,41S19.5,2,41,2L41,2z"/>
+                       </g>
+                   </g>
+                   </svg>
+                </button>
             </div>      
         </section>
         
@@ -140,9 +169,27 @@
                     </div>
                 </div>
             </div>
-            <div id="tech-link-div">
-                <p class="link-desc-white">See what we have made together</p>
-                <button class="btn " type="submit" id="tech-link"><img src="assets/images/right-arrow-white.svg" alt="Right arrow"></button>
+            <div id="tech-link-div" data-aos="fade-right">
+                <p class="link-desc-white animation-element slide-left">See what we have made together</p>
+                <button class="btn animation-element slide-left" type="submit" id="tech-link">
+                    <!-- <img src="assets/images/right-arrow-white.svg" alt="Right arrow"> -->
+
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 82 82" style="enable-background:new 0 0 82 82;" xml:space="preserve">
+               <style type="text/css">
+                   .st1{fill:#FFFFFF;}
+               </style>
+               <g>
+                   <g>
+                       <path class="st1" d="M54.5,41l-22,22c-0.4,0.4-0.4,1,0,1.4s1,0.4,1.4,0l22.6-22.6c0.2-0.2,0.3-0.5,0.3-0.8s-0.1-0.6-0.3-0.8
+                           L33.8,17.5c-0.4-0.4-1-0.4-1.4,0c-0.4,0.4-0.4,1,0,1.4L54.5,41z"/>
+                       <path class="st1" d="M41,0C18.4,0,0,18.4,0,41s18.4,41,41,41s41-18.4,41-41S63.6,0,41,0L41,0z M41,2c21.5,0,39,17.5,39,39
+                           S62.5,80,41,80S2,62.5,2,41S19.5,2,41,2L41,2z"/>
+                   </g>
+               </g>
+               </svg>
+
+                </button>
             </div>      
         </section>
 
@@ -155,7 +202,7 @@
                         <h2 class="heading-1">TECH STACKS</h2>                      
                     </div>
                 </div>
-                <div class="row no-gutters justify-content-center">
+                <div class="row no-gutters justify-content-center tech-stacks">
                     <div class="col-4 col-lg-1 text-center logo-container">
                         <img src="assets/images/react.jpg" alt="React logo" class="img-fluid tech-logo">
                     </div>
@@ -186,8 +233,25 @@
                 </div>
             </div>    
             <div id="tech-link-div">
-                <p class="link-desc">Check out my personal projects</p>
-                <button class="btn " type="submit" id="tech-link"><img src="assets/images/right-arrow.svg" alt="Right arrow"></button>
+                <p class="link-desc animation-element slide-left">Check out my personal projects</p>
+                <button class="btn animation-element slide-left" type="submit" id="tech-link">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 82 82" style="enable-background:new 0 0 82 82;" xml:space="preserve">
+                    <style type="text/css">
+                        .st0 {fill:#000;}
+                    </style>
+                    <title></title>
+                    <desc></desc>
+                    <g>
+                        <g>
+                            <path class="st0" d="M54.5,41l-22,22c-0.4,0.4-0.4,1,0,1.4s1,0.4,1.4,0l22.6-22.6c0.2-0.2,0.3-0.5,0.3-0.8s-0.1-0.6-0.3-0.8
+                                L33.8,17.5c-0.4-0.4-1-0.4-1.4,0c-0.4,0.4-0.4,1,0,1.4L54.5,41z"/>
+                            <path class="st0" d="M41,0C18.4,0,0,18.4,0,41s18.4,41,41,41s41-18.4,41-41S63.6,0,41,0L41,0z M41,2c21.5,0,39,17.5,39,39
+                                S62.5,80,41,80S2,62.5,2,41S19.5,2,41,2L41,2z"/>
+                        </g>
+                    </g>
+                    </svg>
+                </button>
             </div>    
         </section>
 
@@ -227,7 +291,24 @@
                                     </div>
                                     <div id="submit-div">
                                         <p class="link-desc">Submit</p>
-                                        <button class="btn " type="submit" id="submitButton"><img src="assets/images/right-arrow.svg" alt="Right arrow"></button>
+                                        <button class="btn " type="submit" id="submitButton">
+                                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                viewBox="0 0 82 82" style="enable-background:new 0 0 82 82;" xml:space="preserve">
+                                            <style type="text/css">
+                                                .st0 {fill:#000;}
+                                            </style>
+                                            <title></title>
+                                            <desc></desc>
+                                            <g>
+                                                <g>
+                                                    <path class="st0" d="M54.5,41l-22,22c-0.4,0.4-0.4,1,0,1.4s1,0.4,1.4,0l22.6-22.6c0.2-0.2,0.3-0.5,0.3-0.8s-0.1-0.6-0.3-0.8
+                                                        L33.8,17.5c-0.4-0.4-1-0.4-1.4,0c-0.4,0.4-0.4,1,0,1.4L54.5,41z"/>
+                                                    <path class="st0" d="M41,0C18.4,0,0,18.4,0,41s18.4,41,41,41s41-18.4,41-41S63.6,0,41,0L41,0z M41,2c21.5,0,39,17.5,39,39
+                                                        S62.5,80,41,80S2,62.5,2,41S19.5,2,41,2L41,2z"/>
+                                                </g>
+                                            </g>
+                                            </svg>
+                                        </button>
                                     </div>
         
                                 </form>
@@ -254,22 +335,24 @@
                         </div>
 
                     </div>
-                    <div class="row contact-info justify-content-center">
-                        <div class="col-1 contact-col text-center">
-                            <i class="fas fa-mobile-alt"></i>
+                    <div class="row contact-info">
+                        <div class="col-md-6 contact-col justify-content-center">
+                            <div class="col-1 contact-col text-center">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="col-5 contact-col">
+                                <p>+852 6828-0234</p>
+                            </div>
                         </div>
-                        <div class="col-5 contact-col">
-                            <p>+852 6828-0234</p>
-                        </div>
-                    </div>
-                    <div class="row contact-info justify-content-center">
-                        <div class="col-1 contact-col text-center">
-                            <i class="fas fa-at"></i>
-                        </div>
-                        <div class="col-5 contact-col">
-                            <p>
-                                <a href="mailto:khchick@gmail.com">khchick@gmail.com</a>
-                            </p>
+                        <div class="col-md-6 contact-col justify-content-center">
+                            <div class="col-1 contact-col text-center">
+                                <i class="fas fa-at"></i>
+                            </div>
+                            <div class="col-5 contact-col">
+                                <p>
+                                    <a href="mailto:khchick@gmail.com">khchick@gmail.com</a>
+                                </p>
+                            </div>
                         </div>
                     </div>
                     
@@ -301,25 +384,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function(){
-            $('.animated-icon1,.animated-icon3,.animated-icon4').click(function(){
-                $(this).toggleClass('open');
-            });
-        });   
-        
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-                });
-            });
-        });
-        $(function(){  // $(document).ready shorthand
-        $('.monster').fadeIn('slow');
-        });
-  </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/custom.js"></script>
 </body>
 </html>
