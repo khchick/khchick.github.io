@@ -84,7 +84,7 @@ button:focus {
 /* NAVIGATION */
 .navbar {
 min-height: 60px;
-background-color: #fff;
+background-color: rgba(255, 255, 255, 0.815);
 padding: 0;
 }
 
@@ -93,18 +93,24 @@ padding: 0 15px;
 height: 70px;
 line-height: 60px;
 width: 50%;
-font-size: 1.7rem;
+font-size: 1.2rem;
 color: white !important;
 display: flex;
 align-items: center;
 }
 
+#khc {
+    width: 10vw;
+}
+
 #K {
-    background-color: #143a81;
+    color: white;
+    font-weight: bold;
     border-radius: 50%;
-    width: 1.7em;
-    height: 1.7em;
-    letter-spacing: 0.1ch;
+    background-color: #143a81;
+    height: 50px;
+    width: 50px;
+    
 }
 
 .navbar-toggle {
@@ -130,8 +136,12 @@ a.nav-link {
     font-weight: lighter;
     letter-spacing: 0.1ch;
     font-size: 1.5rem;
-    line-height: 2rem;
+    line-height: 1rem;
     margin-bottom: 10px;
+}
+
+.nav-item:nth-child(4) {
+    margin-bottom: 35px;
 }
 
   /* GRID */
