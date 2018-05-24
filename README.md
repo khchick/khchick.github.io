@@ -1,4 +1,4 @@
-# About Me
+# Individual project
 
 This is a website built to serve the below purposes:
 1. To apply my knowledge in website development obtained through the coding bootcamp
