@@ -12,10 +12,10 @@ Currently only the Overview/Home page has been built. It consists of the followi
     * Supports the overall look and feel
     * Highlights the core messages to convey
     * With fade in and hover effects to draw focus on the keywords
-3. **Who Am Ie**
+3. **Who Am I**
     * Achievement hightlights
     * With animated link to detailed profile (to be added)
-4. **Client Hiightsk**
+4. **Client Highlights**
     * A showcase of a few major clients I serviced
     * With animated link to project porfoilio (to be added)
 5. **Tech Stacks**
