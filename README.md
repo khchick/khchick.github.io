@@ -1,11 +1,15 @@
 # Individual project
 
 This is a website built to serve the below purposes:
-1. To apply my knowledge in website development obtained through the coding bootcamp
-2. As a backbone for extending the collection of my portfolio and means of communication with potential clients
+1. As a backbone for extending the collection of my portfolio and means of communication with potential clients
+2. To apply my knowledge in website development obtained through the coding bootcamp
+
+## Design approach
+- Combination of navy branding and grey tone to provide a professional, creditable brand image
+- Magenta as highlight color to imply passion
 
 ## Content
-Currently only the Overview/Home page has been built. It consists of the following parts and functionalities (from top to bottom):
+Currently only the Overview/Home page has been built. It consists of the following sections and functionalities (from top to bottom):
 1. **Navigation**
     * Sticky to the top with smooth scrolling effect
 2. **Hero video banner**
